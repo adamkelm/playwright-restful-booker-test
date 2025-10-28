@@ -1,5 +1,6 @@
 # Playwright Restful Booker API Test Automation
 
+![Playwright Tests](https://github.com/adamkelm/playwright-restful-booker-test/actions/workflows/playwright.yml/badge.svg)
 [![Playwright Tests](https://img.shields.io/badge/Playwright-1.56-green.svg)](https://playwright.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue.svg)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
