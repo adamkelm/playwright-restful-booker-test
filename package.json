@@ -1,0 +1,45 @@
+{
+  "name": "playwright-restful-booker-api-tests",
+  "version": "1.0.0",
+  "description": "Professional API test automation suite for Restful Booker using Playwright and TypeScript with Page Object Model pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:auth": "playwright test tests/auth/",
+    "test:booking": "playwright test tests/booking/",
+    "test:ping": "playwright test tests/ping/",
+    "test:e2e": "playwright test tests/e2e/",
+    "test:report": "playwright show-report",
+    "test:list": "playwright test --list",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "keywords": [
+    "playwright",
+    "api-testing",
+    "typescript",
+    "test-automation",
+    "restful-booker",
+    "page-object-model",
+    "e2e-testing"
+  ],
+  "author": "Adam Kelm",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@eslint/js": "^9.38.0",
+    "@faker-js/faker": "^9.4.0",
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1",
+    "eslint": "^9.38.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
